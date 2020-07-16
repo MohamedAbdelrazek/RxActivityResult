@@ -5,9 +5,10 @@ import android.app.Application;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 
-import io.reactivex.Observable;
-import io.reactivex.functions.Function;
-import io.reactivex.functions.Predicate;
+import io.reactivex.rxjava3.core.Observable;
+import io.reactivex.rxjava3.functions.*;
+
+
 import java.util.concurrent.TimeUnit;
 
 class ActivitiesLifecycleCallbacks {
